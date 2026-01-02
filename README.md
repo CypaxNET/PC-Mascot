@@ -14,16 +14,12 @@ I came across this oddity on eBay and got it running on an old WinXP machine. Bu
 Without the email feature, the buttons on the mascot are without function, which makes the PC-Mascot basically useless - apart, of course, from the girl-impressing sayings it chatters every now and then.<br>
 Thus, I decided to hack this thing and analyzed the protocol between the original software and the mascot using [usbpcap](https://github.com/desowin/usbpcap/). With the information gained this way and by peeking at [PetePrioritys chatbird](https://github.com/PetePriority/chatbird) Linux driver, I was able to write an own application which sends the commands to make the mascot move, talk and control its LEDs.
 
-So, this is what the new software for the PC-Mascot can do:
+So, this is what the new **software for the PC-Mascot** can do:
 
 - **runs on Win10** as well as **on WinXP** - and probably on **any other Windows** from this millennium
-
 - lets you **control Winamp by pressing the buttons** on the parrot stand - perfect to control your music while gaming
-
 - **controls all the parrot features** such like flap its wings, tilt its head, light its LEDs - just like the original software did
-
 - lets the parrot chatter **countless customizable cheeky sayings** - even more girl-impressing than those lame original sayings
-
 - lets the parrot **play any sound** file you wish - a cuckoo sound, a cat meowing or a Duke Nukem saying, whatever you want
 
 ---
