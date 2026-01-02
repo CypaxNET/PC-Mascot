@@ -61,7 +61,7 @@ I recommend version 14.4.2-win32 since this will still run on older WinXP system
 
 3. The status in the left bottom corner should say "USB: Connected" when the Mitsumi PC-Mascot has been detected - otherwise check if the USB driver has been installed correctly.
 
-4. Go to the settings tab and specify where to find sox.exe (this needs to be done only once):
+4. Go to the settings tab, click the <img title="" src="resources/open.png" alt="" width="16"> button  and specify where to find sox.exe (this needs to be done only once):
    
    <img src="screenshots/locate_sox.png" title="" alt="" width="440">
 
