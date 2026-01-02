@@ -2,7 +2,7 @@
 
 A modern Windows software for the Mitsumi PC-Mascot.
 
-<img src="Mitsumi_Mascot.jpg" title="" alt="" width="526">
+<img src="./Mitsumi_Mascot.jpg" title="" alt="" width="526">
 
 This cute little fella is the **Mitsumi PCMASCOT** - a wing-flapping and babbling parrot robot USB gadget from the early 2000s that you would connect with your Windows PC.
 It came with a software to have the parrot read your emails aloud or *"impress girls with 20 cool sayings"* (yep, that's what it said on the box.)
@@ -34,7 +34,7 @@ So, this is what the new software for the PC-Mascot can do:
 
 The original driver for the Mitsumi PC-Mascot won't work with modern Windows versions and the new software won't run with the original driver either.
 Thus, download Zadig from [here](https://github.com/pbatard/libwdi/releases), run it and make it install a `WinUSB v6.1.x` USB driver for the *Chatbird or PCmascot* device (USB ID `03EE, FF01`):
-![](screenshots\zadig.png)
+![](screenshots/zadig.png)
 
 Zadig will then install a generic libusb driver for the PC-Mascot.
 The latest version of Zadig for WinXP was 2.2.
@@ -66,9 +66,10 @@ I recommend version 14.4.2-win32 since this will still run on older WinXP system
 
 4. Go to the settings tab and specify where to find sox.exe (this needs to be done only once):
    
-   <img src="screenshots\locate_sox.png" title="" alt="" width="440">
+   <img src="screenshots/locate_sox.png" title="" alt="" width="440">
 
 The first time PCParrot.exe is started, it will show up normally. Subsequent launches will show it minimized as an icon in the system tray of the Windows taskbar:
+
 <img title="" src="screenshots/systray_win10.png" alt="" width="466">
 
 ---
@@ -77,7 +78,7 @@ The first time PCParrot.exe is started, it will show up normally. Subsequent lau
 
 ## "Parrot talk" tab
 
-![](screenshots\parrot_talk.png)
+![](screenshots/parrot_talk.png)
 
 You can let the parrot say randomly selected sayings from the list here at adjustable intervals.
 Each line in the editor represents a saying. A saying can be subject to a condition - e.g. `[TIME>23:00]Good night` would only be said after 11:00 PM.
@@ -87,46 +88,38 @@ Check the included examples to see what other conditions and commands exist.
 The software will randomly pick a line from the editor in adjustable intervals, make the parrot say it and execute the contained commands. You can increase the probability of a line by simply duplicating it.
 Empty lines or lines starting with a `;` will cause the parrot to stay silent.
 
-
-
 ## "Winamp" tab
 
-![](screenshots\winamp.png)
+![](screenshots/winamp.png)
 
 The *play*, *previous* and *next* buttons on the parrot stand can be used to control the playback of Winamp.
 When pressing the buttons but Winamp is not running, the parrot will say a saying from the upper editor. On a song change of Winamp, the parrot will pick a line from the lower editor.
 
 ## "TTS voice" tab
 
-![](screenshots\tts.png)
+![](screenshots/tts.png)
 
 Here you can select the parrots voice from the list of installed, SAPI compatible TTS voices and adjust it. The application will remember the settings when restarted.
 
 Old TTS voices from the 2000s are sometimes hard to understand. To say the least. And playing them back on a coin-sized speaker in a weird parrot toy at 12kHz does not improve this. 
 So I added a feature to popup a speech bubble, showing the spoken text in the taskbar tray:
-![](screenshots\parrot_tray_winxp.png)
+![](screenshots/parrot_tray_winxp.png)
 
 You can enable/disable the speech bubbles in the options.
 
-
-
 ## "Settings" tab
 
-![](screenshots\settings.png)
+![](screenshots/settings.png)
 
 You need to tell the software where to find the sound converter tool. Click on the button right beside the edit field and navigate to the location of `sox.exe` on your hard drive. Usually it will be something like `%ProgramFiles%\sox-14-4-2\sox.exe`.
 
 You can also switch the GUI language here between English and German. This applies only to the user interface, not to the spoken language of the parrot. (To change the parrots language, install a TTS voice in the desired language and create sayings in that language.)
 
-
-
 ## "Debug" tab
 
-![](screenshots\debug.png)
+![](screenshots/debug.png)
 
 The buttons and log events in this tab are for testing the functionality of the parrot robot and trouble-shooting.
-
-
 
 ---
 
