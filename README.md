@@ -72,7 +72,7 @@ The first time PCParrot.exe is started, it will show up normally. Subsequent lau
 
 # Usage
 
-## "Parrot talk" tab
+## Parrot talk
 
 ![](screenshots/parrot_talk.png)
 
@@ -84,14 +84,14 @@ Check the included examples to see what other conditions and commands exist.
 The software will randomly pick a line from the editor in adjustable intervals, make the parrot say it and execute the contained commands. You can increase the probability of a line by simply duplicating it.<br>
 Empty lines or lines starting with a `;` will cause the parrot to stay silent.
 
-## "Winamp" tab
+## Winamp control
 
 ![](screenshots/winamp.png)
 
 The *play*, *previous* and *next* buttons on the parrot stand can be used to control the playback of Winamp.<br>
 When pressing the buttons but Winamp is not running, the parrot will say a saying from the upper editor. On a song change of Winamp, the parrot will pick a line from the lower editor.
 
-## "TTS voice" tab
+## TTS voice (text-to-speech)
 
 ![](screenshots/tts.png)
 
@@ -103,7 +103,7 @@ So I added a feature to popup a speech bubble, showing the spoken text in the ta
 
 You can enable/disable the speech bubbles in the options.
 
-## "Settings" tab
+## Application settings
 
 ![](screenshots/settings.png)
 
@@ -111,11 +111,12 @@ You need to tell the software where to find the sound converter tool. Click on t
 
 You can also switch the GUI language here between English and German. This applies only to the user interface, not to the spoken language of the parrot. (To change the parrots language, install a TTS voice in the desired language and create sayings in that language.)
 
-## "Debug" tab
+## Debugging and trouble-shooting
 
 ![](screenshots/debug.png)
 
-The buttons and log events in this tab are for testing the functionality of the parrot robot and trouble-shooting.
+The buttons and log events in this tab are for testing the functionality of the parrot robot and for trouble-shooting.
+In case you cannot connect via USB to the mascot, make sure you have installed the libusb driver cor
 
 ---
 
