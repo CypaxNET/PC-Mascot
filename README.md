@@ -59,7 +59,7 @@ I recommend version 14.4.2-win32 since this will still run on older WinXP system
 
 2. Open PCParrot.exe
 
-3. The status in the left bottom corner should say "USB: Connected" when the Mitsumi PC-Mascot has been detected - otherwise check if the USB driver is installed correctly.
+3. The status in the left bottom corner should say "USB: Connected" when the Mitsumi PC-Mascot has been detected - otherwise check if the USB driver has been installed correctly.
 
 4. Go to the settings tab and specify where to find sox.exe (this needs to be done only once):
    
@@ -116,7 +116,7 @@ You can also switch the GUI language here between English and German. This appli
 
 ![](screenshots/debug.png)
 
-The buttons and log events in this tab are for testing the functionality of the parrot robot and for trouble-shooting.
+The buttons and log events in this tab are for testing the functionality of the parrot robot and for trouble-shooting.<br>
 In case you cannot connect via USB to the mascot, make sure you have installed the libusb driver correctly as described above.
 
 ---
