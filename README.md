@@ -30,6 +30,7 @@ So, this is what the new **software for the PC-Mascot** can do:
 
 The original driver for the Mitsumi PC-Mascot won't work with modern Windows versions and the new software won't run with the original driver either.<br>
 Thus, download Zadig from [here](https://github.com/pbatard/libwdi/releases), run it and make it install a `WinUSB v6.1.x` USB driver for the *Chatbird or PCmascot* device (USB ID `03EE, FF01`):
+
 ![](screenshots/zadig.png)
 
 Zadig will then install a generic libusb driver for the PC-Mascot.<br>
@@ -116,7 +117,7 @@ You can also switch the GUI language here between English and German. This appli
 ![](screenshots/debug.png)
 
 The buttons and log events in this tab are for testing the functionality of the parrot robot and for trouble-shooting.
-In case you cannot connect via USB to the mascot, make sure you have installed the libusb driver cor
+In case you cannot connect via USB to the mascot, make sure you have installed the libusb driver correctly as described above.
 
 ---
 
