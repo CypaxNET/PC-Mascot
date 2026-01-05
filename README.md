@@ -55,7 +55,7 @@ I recommend version 14.4.2-win32 since this will still run on older WinXP system
 
 ## PC-Parrot
 
-1. Download the PC-Parrot software from here and just unpack it to a location you want.
+1. Download the PC-Parrot software from [here](https://github.com/CypaxNET/PC-Mascot/releases) and just unpack it to a location you want.
 
 2. Open PCParrot.exe
 
