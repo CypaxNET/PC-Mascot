@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="PCParrot"/>
+      <Scaled Value="True"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="languages"/>
+      <ExcludedIdentifiers Count="17">
+        <Item1 Value="tform1.btnEnglish.Caption"/>
+        <Item2 Value="tform1.btnGerman.Caption"/>
+        <Item3 Value="tform1.lblAge.Caption"/>
+        <Item4 Value="tform1.lblGender.Caption"/>
+        <Item5 Value="tform1.lblName.Caption"/>
+        <Item6 Value="tform1.lblLanguage.Caption"/>
+        <Item7 Value="tform1.statusbar1.panels[0].caption"/>
+        <Item8 Value="tform1.LoggingListView.columns[0].caption"/>
+        <Item9 Value="tform1.LoggingListView.columns[1].caption"/>
+        <Item10 Value="tform1.LoggingListView.columns[2].caption"/>
+        <Item11 Value="tform1.LoggingListView.columns[3].caption"/>
+        <Item12 Value="tform1.lblvoicespeed.caption"/>
+        <Item13 Value="tform1.lbltalktimer.caption"/>
+        <Item14 Value="tform1.lblpitch.caption"/>
+        <Item15 Value="tform1.lblloudness.caption"/>
+        <Item16 Value="tform1.groupbox1.caption"/>
+        <Item17 Value="tform1.GroupBoxVoiceInfo"/>
+      </ExcludedIdentifiers>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MajorVersionNr Value="1"/>
+      <StringTable CompanyName="cypax.net" FileDescription="PC-Parrot" InternalName="PC-Parrot"/>
+    </VersionInfo>
+    <BuildModes>
+      <Item Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+    </RunParams>
+    <RequiredPackages>
+      <Item>
+        <PackageName Value="SynEditDsgn"/>
+      </Item>
+      <Item>
+        <PackageName Value="SynEdit"/>
+      </Item>
+      <Item>
+        <PackageName Value="LCL"/>
+      </Item>
+    </RequiredPackages>
+    <Units>
+      <Unit>
+        <Filename Value="PCParrot.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="mainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="PCParrot"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf3"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions>
+      <Item>
+        <Name Value="EAbort"/>
+      </Item>
+      <Item>
+        <Name Value="ECodetoolError"/>
+      </Item>
+      <Item>
+        <Name Value="EFOpenError"/>
+      </Item>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
