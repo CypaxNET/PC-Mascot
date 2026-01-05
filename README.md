@@ -123,3 +123,7 @@ In case you cannot connect via USB to the mascot, make sure you have installed t
 
 That's it. I would be happy to know if anyone else out there still has such a Mitsumi mascot gadget and might find this software useful.<br>
 If so: feel free to download and distribute.
+
+---
+
+<img title="" src="resources/information.png" alt="" width="32">  This projects uses TWinampControl from SpECTre and [libusb](https://github.com/libusb/).<br> Thanks also to PetePriority for the USB analysis work on his [Chatbird Linux driver](https://github.com/PetePriority/chatbird).
