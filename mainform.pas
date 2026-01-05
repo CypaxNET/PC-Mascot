@@ -1,11 +1,3 @@
-(*
-
-Control application for the Mitsumi PCMASCOT gadget using libusb and Microsoft SAPI TTS.
-
-See https://github.com/CypaxNET/PC-Mascot
-
-*)
-
 unit mainform;
 
 {$mode objfpc}{$H+}
@@ -39,6 +31,9 @@ type
     VoiceSpeed: Integer;            // TTS talking speed
     VoicePitch: Integer;            // TTS talking voice pitch
     VoiceLoudness: Integer;         // speaker loudness
+    FlapDuration: Integer;          // default duration of wing flapping movement in ms
+    TiltDuration: Integer;          // default duration of head tile movement in ms
+    UntiltDuration: Integer;        // default duration of head un-tilt movement in ms
   end;
 
   { TForm1 }
@@ -65,6 +60,7 @@ type
     EditTTS: TEdit;
     GroupBoxVoiceInfo: TGroupBox;
     HideTimer: TTimer;
+    SplashImage: TImage;
     Label2: TLabel;
     Label3: TLabel;
     Label4: TLabel;
@@ -132,6 +128,7 @@ type
     TrayIcon1: TTrayIcon;
     VoiceComboBox: TComboBox;
     WinampControl: TWinampControl;
+    procedure SplashImageClick(Sender: TObject);
     procedure btnClearLogClick(Sender: TObject);
     procedure btnEnglishClick(Sender: TObject);
     procedure btnGermanClick(Sender: TObject);
@@ -706,8 +703,8 @@ begin
   while (Pos('<TILT>', S.ToUpper) <> 0 ) do begin
     I:= Pos('<TILT>', S.ToUpper);
     Delete(S, I, Length('<TILT>'));
-    ParrotDoAction(maTILT, 500);
-    Sleep(500);
+    ParrotDoAction(maTILT, FApplicationConfig.TiltDuration);
+    Sleep(FApplicationConfig.TiltDuration);
   end;
 
   // parrot wing flap
@@ -741,8 +738,8 @@ begin
   end
   else
     if isHeadTilted then begin
-      ParrotDoAction(maFLAP, 100); // un-tilt the head
-      Sleep(100);
+      ParrotDoAction(maFLAP, FApplicationConfig.UntiltDuration); // un-tilt the head
+      Sleep(FApplicationConfig.UntiltDuration);
     end;
 
   result:= S;
@@ -802,6 +799,11 @@ begin
     FApplicationConfig.DoRandomTalk:= IniFile.ReadBool('PARROT', 'DoRandomTalk', False);
     FApplicationConfig.RandomTalkInterval:= IniFile.ReadInteger('PARROT', 'TalkInterval', 30);
 
+    { robot section }
+    FApplicationConfig.FlapDuration:= IniFile.ReadInteger('ROBOT', 'FlapDuration', 2000);
+    FApplicationConfig.TiltDuration:= IniFile.ReadInteger('ROBOT', 'TiltDuration', 500);
+    FApplicationConfig.UntiltDuration:= IniFile.ReadInteger('ROBOT', 'UntiltDuration', 500);
+
   finally
     IniFile.Free;
   end;
@@ -831,6 +833,11 @@ begin
     IniFile.WriteBool('PARROT', 'DoShowTaskbarPopups', FApplicationConfig.DoShowTaskbarPopups);
     IniFile.WriteBool('PARROT', 'DoRandomTalk', FApplicationConfig.DoRandomTalk);
     IniFile.WriteInteger('PARROT', 'TalkInterval', FApplicationConfig.RandomTalkInterval);
+
+    { robot section }
+    IniFile.ReadInteger('ROBOT', 'FlapDuration', FApplicationConfig.FlapDuration);
+    IniFile.ReadInteger('ROBOT', 'TiltDuration', FApplicationConfig.TiltDuration);
+    IniFile.ReadInteger('ROBOT', 'UntiltDuration', FApplicationConfig.UntiltDuration);
 
   finally
     IniFile.Free;
@@ -880,6 +887,9 @@ begin
   FApplicationConfig.VoiceName:= 'Microsoft Sam';
   FApplicationConfig.VoicePitch:= 0;
   FApplicationConfig.VoiceSpeed:= 0;
+  FApplicationConfig.FlapDuration:= 2000;
+  FApplicationConfig.TiltDuration:= 500;
+  FApplicationConfig.UntiltDuration:= 500;
 
   // init variables
   FIniFileName := ExtractFilePath(Application.ExeName) + PARROT_INIFILE; // default ini file
@@ -1703,6 +1713,12 @@ begin
   LoggingListView.Clear;
 end;
 
+procedure TForm1.SplashImageClick(Sender: TObject);
+begin
+  SplashImage.Visible:= False;
+  PageControl1.Visible:= True;
+end;
+
 // user switches GUI language to English
 procedure TForm1.btnEnglishClick(Sender: TObject);
 begin
@@ -1757,6 +1773,8 @@ end;
 
 procedure TForm1.HideTimerTimer(Sender: TObject);
 begin
+  SplashImage.Visible:= False;
+  PageControl1.Visible:= True;
   if (FileExists(FIniFileName)) then begin
     Hide;
   end;
