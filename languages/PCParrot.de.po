@@ -83,214 +83,203 @@ msgstr "USB: nicht verbunden"
 
 #: tform1.btnalloff.caption
 msgid "All off"
-msgstr "Alles aus"
+msgstr ""
 
 #: tform1.btnclearlog.hint
 msgid "Clear log"
-msgstr "Log löschen"
+msgstr ""
 
 #: tform1.btnconnect.caption
 msgid "Connect"
-msgstr "Verbinden"
+msgstr ""
 
 #: tform1.btngreen.caption
 msgid "Toggle Green"
-msgstr "Grüne LED"
+msgstr ""
 
 #: tform1.btnopensoxpath.hint
-msgctxt "tform1.btnopensoxpath.hint"
 msgid "Open SoX path"
-msgstr "Öffne SoX-Pfad"
+msgstr ""
 
 #: tform1.btnplaywave.caption
 msgid "Play *.wav"
-msgstr "Spiele *.wav"
+msgstr ""
 
 #: tform1.btnpreviewnextsong.hint
 msgctxt "tform1.btnpreviewnextsong.hint"
 msgid "Play current line"
-msgstr "Spiele aktuelle Zeile"
+msgstr ""
 
 #: tform1.btnpreviewnowinamp.hint
 msgctxt "tform1.btnpreviewnowinamp.hint"
 msgid "Play current line"
-msgstr "Spiele aktuelle Zeile"
+msgstr ""
 
 #: tform1.btnred.caption
 msgid "Toggle Red"
-msgstr "Rote LED"
+msgstr ""
 
 #: tform1.btnsavelogfile.hint
-msgctxt "tform1.btnsavelogfile.hint"
 msgid "Save log to file"
-msgstr "Log in Datei speichern"
+msgstr ""
 
 #: tform1.btnsavenextsonglines.hint
 msgctxt "tform1.btnsavenextsonglines.hint"
 msgid "Save"
-msgstr "Speichern"
+msgstr ""
 
 #: tform1.btnsavenowinamplines.hint
 msgctxt "tform1.btnsavenowinamplines.hint"
 msgid "Save"
-msgstr "Speichern"
+msgstr ""
 
 #: tform1.btnsavetalklines.hint
 msgctxt "tform1.btnsavetalklines.hint"
 msgid "Save"
-msgstr "Speichern"
+msgstr ""
 
 #: tform1.btnsort.hint
 msgid "Sort"
-msgstr "Sortieren"
+msgstr ""
 
 #: tform1.btntestbeak.caption
 msgid "Test beak"
-msgstr "Schnabel"
+msgstr ""
 
 #: tform1.btntestflaps.caption
 msgid "Test flaps"
-msgstr "Flügel"
+msgstr ""
 
 #: tform1.btntesttilt.caption
 msgid "Test tilt"
-msgstr "Kopf"
+msgstr ""
 
 #: tform1.btntextpreview.hint
 msgctxt "tform1.btntextpreview.hint"
 msgid "Play current line"
-msgstr "Spiele aktuelle Zeile"
+msgstr ""
 
 #: tform1.btntts.hint
 msgid "Voice preview"
-msgstr "Stimmenvorschau"
+msgstr ""
 
 #: tform1.caption
+#, fuzzy
 msgctxt "tform1.caption"
 msgid "PC-Parrot"
 msgstr "PC-Papagei"
 
 #: tform1.cbballoonhints.caption
 msgid "Popup spoken text in taskbar"
-msgstr "Zeige gesprochenen Text als Popup in Taskleiste"
+msgstr ""
 
 #: tform1.cbcommentsongchange.caption
 msgid "Comment song changes"
-msgstr "Kommentiere Song-Wechsel."
+msgstr ""
 
 #: tform1.cbtalkenabled.caption
 msgid "Random talk each "
-msgstr "Zufälliger Spruch alle "
+msgstr ""
 
 #: tform1.edittts.text
 msgid "Hello you little pisser. This is my voice."
-msgstr "Hallo du kleiner Pisser. Dies ist meine Stimme."
+msgstr ""
 
 #: tform1.groupbox3.caption
 msgid "SoX (sound converter tool)"
-msgstr "Sox (Sound-Koverter-Tool)"
+msgstr ""
 
 #: tform1.groupboxvoiceinfo.caption
-msgctxt "tform1.groupboxvoiceinfo.caption"
 msgid "Voice"
-msgstr "Stimme"
+msgstr ""
 
 #: tform1.label1.caption
 msgid "Event log:"
-msgstr "Ereignis-Log:"
+msgstr ""
 
 #: tform1.label2.caption
 msgid "Voice:"
-msgstr "Stimme:"
+msgstr ""
 
 #: tform1.label3.caption
 msgid "Loudness:"
-msgstr "Lautstärke:"
+msgstr ""
 
 #: tform1.label4.caption
 msgid "Voice pitch:"
-msgstr "Stimmhöhe:"
+msgstr ""
 
 #: tform1.label5.caption
 msgid "Voice speed:"
-msgstr "Sprechgeschwindigkeit:"
+msgstr ""
 
 #: tform1.label7.caption
 msgid "Play/Prev/next button press but Winamp is not running:"
-msgstr "Play/Zurück/Nächster-Knopf gedrückt, aber Winamp läuft nicht:"
+msgstr ""
 
 #: tform1.label8.caption
 msgid "On song change:"
-msgstr "Bei Song-Wechsel:"
+msgstr ""
 
 #: tform1.labelappname.caption
+#, fuzzy
 msgctxt "tform1.labelappname.caption"
 msgid "PC-Parrot"
 msgstr "PC-Papagei"
 
 #: tform1.labellink.caption
-msgctxt "tform1.labellink.caption"
 msgid "by cypax.net"
-msgstr "von cypax.net"
+msgstr ""
 
 #: tform1.menuitemclose.caption
-msgctxt "tform1.menuitemclose.caption"
 msgid "Close"
-msgstr "Schließen"
+msgstr ""
 
 #: tform1.menuitemsaysomething.caption
-msgctxt "tform1.menuitemsaysomething.caption"
 msgid "Say something"
-msgstr "Sag was"
+msgstr ""
 
 #: tform1.menuitemshowgui.caption
-msgctxt "tform1.menuitemshowgui.caption"
 msgid "Show"
-msgstr "Anzeigen"
+msgstr ""
 
 #: tform1.menuitemtogglemute.caption
 msgid "ToggleChatter"
-msgstr "Geschnatter umschalten"
+msgstr ""
 
 #: tform1.savedialog1.title
 msgid "Save log file as"
-msgstr "Log speichern als"
+msgstr ""
 
 #: tform1.statusbar1.panels[0].text
 msgid "USB: Disconnected"
-msgstr "USB: nicht verbunden"
+msgstr ""
 
 #: tform1.statusbar1.panels[1].text
 msgid "idle"
-msgstr "inaktiv"
+msgstr ""
 
 #: tform1.tabsheetdbg.caption
 msgid "Debug"
-msgstr "Debug"
+msgstr ""
 
 #: tform1.tabsheetinfo.caption
-#, fuzzy
-msgctxt "tform1.tabsheetinfo.caption"
 msgid "Info"
-msgstr "Info"
+msgstr ""
 
 #: tform1.tabsheetparrot.caption
 msgid "Parrot talk"
-msgstr "Geschwätz"
+msgstr ""
 
 #: tform1.tabsheetsettings.caption
-#, fuzzy
-msgctxt "tform1.tabsheetsettings.caption"
 msgid "Settings"
-msgstr "Einstellungen"
+msgstr ""
 
 #: tform1.tabsheettts.caption
-#, fuzzy
-msgctxt "tform1.tabsheettts.caption"
 msgid "TTS voice"
-msgstr "TTS-Stimme"
+msgstr ""
 
 #: tform1.tabsheetwa.caption
 msgid "Winamp"
-msgstr "Winamp"
+msgstr ""
 

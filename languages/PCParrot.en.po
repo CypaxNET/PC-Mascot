@@ -88,7 +88,6 @@ msgid "Toggle Green"
 msgstr ""
 
 #: tform1.btnopensoxpath.hint
-msgctxt "tform1.btnopensoxpath.hint"
 msgid "Open SoX path"
 msgstr ""
 
@@ -111,7 +110,6 @@ msgid "Toggle Red"
 msgstr ""
 
 #: tform1.btnsavelogfile.hint
-msgctxt "tform1.btnsavelogfile.hint"
 msgid "Save log to file"
 msgstr ""
 
@@ -181,7 +179,6 @@ msgid "SoX (sound converter tool)"
 msgstr ""
 
 #: tform1.groupboxvoiceinfo.caption
-msgctxt "tform1.groupboxvoiceinfo.caption"
 msgid "Voice"
 msgstr ""
 
@@ -219,22 +216,18 @@ msgid "PC-Parrot"
 msgstr ""
 
 #: tform1.labellink.caption
-msgctxt "tform1.labellink.caption"
 msgid "by cypax.net"
 msgstr ""
 
 #: tform1.menuitemclose.caption
-msgctxt "tform1.menuitemclose.caption"
 msgid "Close"
 msgstr ""
 
 #: tform1.menuitemsaysomething.caption
-msgctxt "tform1.menuitemsaysomething.caption"
 msgid "Say something"
 msgstr ""
 
 #: tform1.menuitemshowgui.caption
-msgctxt "tform1.menuitemshowgui.caption"
 msgid "Show"
 msgstr ""
 
@@ -259,7 +252,6 @@ msgid "Debug"
 msgstr ""
 
 #: tform1.tabsheetinfo.caption
-msgctxt "tform1.tabsheetinfo.caption"
 msgid "Info"
 msgstr ""
 
@@ -268,12 +260,10 @@ msgid "Parrot talk"
 msgstr ""
 
 #: tform1.tabsheetsettings.caption
-msgctxt "tform1.tabsheetsettings.caption"
 msgid "Settings"
 msgstr ""
 
 #: tform1.tabsheettts.caption
-msgctxt "tform1.tabsheettts.caption"
 msgid "TTS voice"
 msgstr ""
 
