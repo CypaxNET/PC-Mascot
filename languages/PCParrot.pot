@@ -1,0 +1,283 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: mainform.rsage
+msgid "Age:"
+msgstr ""
+
+#: mainform.rsapptitle
+msgctxt "mainform.rsapptitle"
+msgid "PC-Parrot"
+msgstr ""
+
+#: mainform.rsdowfriday
+msgid "Friday"
+msgstr ""
+
+#: mainform.rsdowmonday
+msgid "Monday"
+msgstr ""
+
+#: mainform.rsdowsaturday
+msgid "Saturday"
+msgstr ""
+
+#: mainform.rsdowsunday
+msgid "Sunday"
+msgstr ""
+
+#: mainform.rsdowthursday
+msgid "Thursday"
+msgstr ""
+
+#: mainform.rsdowtuesday
+msgid "Tuesday"
+msgstr ""
+
+#: mainform.rsdowwednesday
+msgid "Wednesday"
+msgstr ""
+
+#: mainform.rsgender
+msgid "Gender:"
+msgstr ""
+
+#: mainform.rsidle
+msgid "Parrot: idle"
+msgstr ""
+
+#: mainform.rslanguage
+msgid "Language:"
+msgstr ""
+
+#: mainform.rsmute
+msgid "Shut up!"
+msgstr ""
+
+#: mainform.rsspeaking
+msgid "Parrot: active"
+msgstr ""
+
+#: mainform.rsunmute
+msgid "You may chatter again."
+msgstr ""
+
+#: mainform.rsusbconnected
+msgid "USB: connected"
+msgstr ""
+
+#: mainform.rsusbdisconnected
+msgctxt "mainform.rsusbdisconnected"
+msgid "USB: disconnected"
+msgstr ""
+
+#: tform1.btnalloff.caption
+msgid "All off"
+msgstr ""
+
+#: tform1.btnclearlog.hint
+msgid "Clear log"
+msgstr ""
+
+#: tform1.btnconnect.caption
+msgid "Connect"
+msgstr ""
+
+#: tform1.btngreen.caption
+msgid "Toggle Green"
+msgstr ""
+
+#: tform1.btnopensoxpath.hint
+msgctxt "tform1.btnopensoxpath.hint"
+msgid "Open SoX path"
+msgstr ""
+
+#: tform1.btnplaywave.caption
+msgid "Play *.wav"
+msgstr ""
+
+#: tform1.btnpreviewnextsong.hint
+msgctxt "tform1.btnpreviewnextsong.hint"
+msgid "Play current line"
+msgstr ""
+
+#: tform1.btnpreviewnowinamp.hint
+msgctxt "tform1.btnpreviewnowinamp.hint"
+msgid "Play current line"
+msgstr ""
+
+#: tform1.btnred.caption
+msgid "Toggle Red"
+msgstr ""
+
+#: tform1.btnsavelogfile.hint
+msgctxt "tform1.btnsavelogfile.hint"
+msgid "Save log to file"
+msgstr ""
+
+#: tform1.btnsavenextsonglines.hint
+msgctxt "tform1.btnsavenextsonglines.hint"
+msgid "Save"
+msgstr ""
+
+#: tform1.btnsavenowinamplines.hint
+msgctxt "tform1.btnsavenowinamplines.hint"
+msgid "Save"
+msgstr ""
+
+#: tform1.btnsavetalklines.hint
+msgctxt "tform1.btnsavetalklines.hint"
+msgid "Save"
+msgstr ""
+
+#: tform1.btnsort.hint
+msgid "Sort"
+msgstr ""
+
+#: tform1.btntestbeak.caption
+msgid "Test beak"
+msgstr ""
+
+#: tform1.btntestflaps.caption
+msgid "Test flaps"
+msgstr ""
+
+#: tform1.btntesttilt.caption
+msgid "Test tilt"
+msgstr ""
+
+#: tform1.btntextpreview.hint
+msgctxt "tform1.btntextpreview.hint"
+msgid "Play current line"
+msgstr ""
+
+#: tform1.btntts.hint
+msgid "Voice preview"
+msgstr ""
+
+#: tform1.caption
+msgctxt "tform1.caption"
+msgid "PC-Parrot"
+msgstr ""
+
+#: tform1.cbballoonhints.caption
+msgid "Popup spoken text in taskbar"
+msgstr ""
+
+#: tform1.cbcommentsongchange.caption
+msgid "Comment song changes"
+msgstr ""
+
+#: tform1.cbtalkenabled.caption
+msgid "Random talk each "
+msgstr ""
+
+#: tform1.edittts.text
+msgid "Hello you little pisser. This is my voice."
+msgstr ""
+
+#: tform1.groupbox3.caption
+msgid "SoX (sound converter tool)"
+msgstr ""
+
+#: tform1.groupboxvoiceinfo.caption
+msgctxt "tform1.groupboxvoiceinfo.caption"
+msgid "Voice"
+msgstr ""
+
+#: tform1.label1.caption
+msgid "Event log:"
+msgstr ""
+
+#: tform1.label2.caption
+msgid "Voice:"
+msgstr ""
+
+#: tform1.label3.caption
+msgid "Loudness:"
+msgstr ""
+
+#: tform1.label4.caption
+msgid "Voice pitch:"
+msgstr ""
+
+#: tform1.label5.caption
+msgid "Voice speed:"
+msgstr ""
+
+#: tform1.label7.caption
+msgid "Play/Prev/next button press but Winamp is not running:"
+msgstr ""
+
+#: tform1.label8.caption
+msgid "On song change:"
+msgstr ""
+
+#: tform1.labelappname.caption
+msgctxt "tform1.labelappname.caption"
+msgid "PC-Parrot"
+msgstr ""
+
+#: tform1.labellink.caption
+msgctxt "tform1.labellink.caption"
+msgid "by cypax.net"
+msgstr ""
+
+#: tform1.menuitemclose.caption
+msgctxt "tform1.menuitemclose.caption"
+msgid "Close"
+msgstr ""
+
+#: tform1.menuitemsaysomething.caption
+msgctxt "tform1.menuitemsaysomething.caption"
+msgid "Say something"
+msgstr ""
+
+#: tform1.menuitemshowgui.caption
+msgctxt "tform1.menuitemshowgui.caption"
+msgid "Show"
+msgstr ""
+
+#: tform1.menuitemtogglemute.caption
+msgid "ToggleChatter"
+msgstr ""
+
+#: tform1.savedialog1.title
+msgid "Save log file as"
+msgstr ""
+
+#: tform1.statusbar1.panels[0].text
+msgid "USB: Disconnected"
+msgstr ""
+
+#: tform1.statusbar1.panels[1].text
+msgid "idle"
+msgstr ""
+
+#: tform1.tabsheetdbg.caption
+msgid "Debug"
+msgstr ""
+
+#: tform1.tabsheetinfo.caption
+msgctxt "tform1.tabsheetinfo.caption"
+msgid "Info"
+msgstr ""
+
+#: tform1.tabsheetparrot.caption
+msgid "Parrot talk"
+msgstr ""
+
+#: tform1.tabsheetsettings.caption
+msgctxt "tform1.tabsheetsettings.caption"
+msgid "Settings"
+msgstr ""
+
+#: tform1.tabsheettts.caption
+msgctxt "tform1.tabsheettts.caption"
+msgid "TTS voice"
+msgstr ""
+
+#: tform1.tabsheetwa.caption
+msgid "Winamp"
+msgstr ""
+

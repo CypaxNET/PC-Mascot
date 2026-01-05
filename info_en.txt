@@ -1,0 +1,17 @@
+﻿This program is freeware and is provided "as is" without warranty. Feel free to use or distribute.
+Installation:
+1. Download Zadig and install a WinUSB v6.x USB driver for the Chatbird (Vendor 03EE, Product FF01).
+   The latest version of Zadig for Win XP was 2.2.
+2. Make sure you have installed Microsoft SAPI 5.1 for the text-to-speech feature.
+3. Install Sox (https://sourceforge.net/projects/sox/).
+   I recommend version 14.4.2-win32 of SoX.
+4. Open PCParrot.exe - the status should say "USB: Connected" when the Misumi PC-Mascot has been detected.
+5. Go to the setting of the PC-Parrot application and setup the path of sox.exe
+
+Hints:
+- You can press F11 when editing parrot text to get a live preview
+- A saying can be subject to a condition. The condition must be at the beginning of the line and be enclosed in square brackets [].
+- When the parrot speaks, the square brackets are evaluated first, followed by keyword expressions in parentheses <> like "<flap>".
+
+--------------------------
+All product names and trademarks are the property of their respective owners.

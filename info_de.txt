@@ -1,0 +1,18 @@
+﻿Dieses Programm ist Freeware und wird ohne Gewährleistung bereitgestellt. Verwendung und Weitergabe ausdrücklich erwünscht.
+
+Installation:
+1. Lade Zadig herunter und installiere den WinUSB v6.x USB-Treiber für Chatbird (Hersteller 03EE, Produkt FF01).
+    Die letzte Zadig-Version für Windows XP war 2.2.
+2. Stelle sicher, dass Microsoft SAPI 5.1 für die Text-to-Speech-Funktion installiert ist.
+3. Installiere SoX (https://sourceforge.net/projects/sox/).
+   Ich empfehle Version 14.4.2-win32 von SoX.
+4. Öffne PCParrot.exe. Der Status unten links in der Anwendung sollte "USB: Verbunden" lauten, wenn das Misumi PC-Mascot erkannt wurde.
+5. Gehe zu den Einstellungen der Anwendung und gebe den Pfad zur sox.exe an.
+
+Hinweise:
+- Drücke F11, um beim Bearbeiten der Papageiensprüche eine Live-Vorschau zu erhalten.
+- Ein Spruch kann an eine Bedingung geknüpft sein. Die Bedingung muss am Zeilenanfang stehen und in eckige Klammern [] eingeschlossen sein.
+- Wenn der Papagei spricht, werden zuerst die eckigen Klammern ausgewertet, gefolgt von den Schlüsselwortausdrücken in runden Klammern <> wie z. B. "<flap>".
+
+--------------------------
+Alle Produktnamen und Marken sind Eigentum ihrer jeweiligen Inhaber.

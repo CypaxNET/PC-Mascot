@@ -1,0 +1,167 @@
+[DATE=24.12]Fröhliche Weihnachten, Schweinebacke!
+[DATE>24.12]Wenn es zu Weihnacht stürmt und schneit, ist Silvester nicht mehr weit.
+[DOW!=2]Wenigstens ist heute nicht Montag!
+[DOW=1]<tilt>Mit diesen Klamotten läufst du am Sonntag rum?
+[DOW=2]Warum muss heute Montag sein? Ich hasse Montag!
+[DOW=6]<flap>Endlich ist bald Wochenende!
+[TIME<04:00]Mach mal Hu-Hu, du Nachteule.
+[TIME<07:00]<tilt>So früh schon wach?
+[TIME<07:00]Wenn allzu früh der Morgen graut, ist der ganze Tag versaut.
+[TIME<10:00]Morgens aufstehen ist der erste Schritt in die falsche Richtung.
+[TIME>18:00]Isst du abends Zwiebelbrot, sind morgen alle Fliegen tot.
+[TIME>23:00]Es wird Zeit, dass du ins Nest gehst. Gute Nacht!
+[UPTIME>180]Mach mal Pause!
+[UPTIME>240]Gönn dem Computer mal eine Pause!
+[WAPLAY]Ich liebe diese Musik!
+[WASTOP]Mach doch mal Musik an.
+[WAV=./sounds/burp.wav]Tschuldigung.
+[WAV=./sounds/burp.wav]Tschuldigung.
+[WAV=./sounds/cat.wav]
+[WAV=./sounds/cuckoo.wav]Es ist <TIME>.
+[WAV=./sounds/cuckoo.wav]Es ist <TIME>.
+[WAV=./sounds/cuckoo.wav]Es ist <TIME>.
+[WAV=./sounds/fart.wav]Der Vogel furzt, die Kinder lachen, so kann man allen Freude machen.
+[WAV=./sounds/fart.wav]Jetzt gehts mir besser.
+[WAV=./sounds/fart.wav]Pfui! Das war ich nicht!
+[WAV=./sounds/fart.wav]Uh, das war gut.
+[WAV=./sounds/laugh.ogg]
+[WAV=./sounds/parrot.wav]<FLAP>
+[WAV=./sounds/parrot.wav]Quatsch mit Soße!
+[WAV=./sounds/rooster.wav]<FLAP>
+[WAV=./sounds/sheep.ogg]
+[WAV=./sounds/singing.wav]
+[WAV=./sounds/whistle1.wav]
+[WAV=./sounds/whistle2.wav]<tilt>
+[WAV=./sounds/whistle2.wav]<tilt>
+[WAV=./sounds/whistle2.wav]<tilt>
+[WAV=./sounds/whistlesong.wav]
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<FLAP>
+<flap>Ich find's genial.
+<flap>Mach mal die ganzen Fenster hier zu.
+<flap>Unfassbar. Echt.
+<rate absspeed="10">Fischers Fritz fischt frische Fische, frische Fische fischt Fischers Fritz.</rate>
+<rate absspeed="10">Zehn Ziegen zogen zehn Zentner Zucker zum Zoo.</rate>
+<TILT>
+<TILT>
+<TILT>
+<TILT>
+<TILT>
+<TILT>
+<TILT>
+<TILT>
+<TILT>
+<TILT>
+<TILT>
+<TILT>
+<TILT>Bist du dumm?
+<tilt>Geht's noch?
+<TILT>Hä?
+<tilt>Ich fahre den Computer jetzt herunter, ja?
+<tilt>Scrollst du schon wieder in die Ewigkeit?
+<voice required="Name=Microsoft Mike">There seems to be a layer 8 issue.</voice>
+5, 4, 3, 2, 1 <silence msec="1500"/>Jetzt hab ich vergessen, was ich sagen wollte.
+Alle sechzig Sekunden vergeht eine Minute
+Aus Hackepeter wird Kacke später.
+Computer sagt nein.
+Danke für nix.
+Das habe ich gesehen.
+Das Licht am Ende des Tunnels kann auch die U-Bahn sein.
+Das Sachsenland liegt abgeschieden, und wird deshalb zu Recht gemieden.
+Das Schwein legt sich zur Ruhe in des Bauern Tiefkühltruhe.
+Dein Hirn möchte ein Appdeyt haben.
+Der Prozess mit der ID 3784 reagiert nicht mehr.
+Der Regenwurm wird arg vermisst, weil er heut zum Angeln ist.
+Die Welt braucht mehr Chaos.
+Du klickst zu viel. Das ist ungesund.
+Du programmierst? Mutig, mutig.
+Du und ich, Hand in Hand, auf dem Weg zum Würstchenstand.
+Dumm Lächeln hilft da auch nichts.
+Ein echter Papagei kackt dauernd. Ich nicht.
+Ein Kaktus ist eigentlich auch nur eine bewaffnete Gurke.
+Fährst Du rückwärts gegen einen Baum, verkleinert sich Dein Kofferraum.
+Fehler 404 - Motivation nicht gefunden.
+Feierfochs würde gerne mal eine Pause machen.
+Früher war mehr Lametta.
+Game over!
+Geht der Schornsteinfeger zu dick aufs Dach, macht es ganz laut krach.
+Haribo macht Kinder fett, das steht sogar im Internet.
+Hat die Blume einen Knick,war der Schmetterling zu dick
+Heute ist <DOW>.
+Heute ist der <DATE>. Nur falls du das wissen wolltest.
+Hilfe! HILFE! Die Katze guckt mich hungrig an!
+Hilfe! Mein Speicher läuft über!
+Ich beobachte dich genau.
+Ich bin empört, wenn man mich stört.
+Ich bin Teil des Systems.
+Ich glaube da ist ein Fehler im Speicher.
+Ich habe eine Idee.<silence msec="1500"/> Nee, wieder vergessen.
+Ich habe gerade dein Passwort erraten.
+Ich habe Hunger!
+Ich hab's ja gesagt.
+Ich hätte jetzt richtig Bock auf keine Besprechung.
+Ich rede, weil ich kann.
+Ich sehe alles.
+Ich würde dir schon helfen.<silence msec="500"/>Aber ich will nicht.
+Ist das Wetter trocken, kann man wieder draussen hocken.
+Keine Ahnung, aber klingt gut.
+Keine Sorgen, Quatsch bis morgen.
+Klopapier spielt eine wichtige Rolle im Leben!
+Kontrol-Zett dein Leben bitte.
+Lass das!
+Lass mich in Ruhe!
+Lieber arm dran, als Bein ab.
+Liegt ein Auge auf dem Tresen, ist ein Zombie da gewesen.
+Mach sofort diese Seite zu.
+Meine Meinung wird ja nicht gefragt.
+Mir ist so langweilig, ich lösche jetzt irgendwas aus Eigene Dateien.
+Mischt der Bauer Gift zur Butter, ist sie für die Schwiegermutter.
+Mission erfüllt.
+Nach fest kommt ab
+Nerve ich dich? Sag mal: Nerve ich? Bin ich nervig? Bin ich nervig? Bin ich echt nervig?
+Nicht schlecht, Herr Specht.
+Noch ein Meeting und ich flieg weg.
+Noch ein Täbb mehr im Browser und dein Computer stirbt.
+Passwort falsch - wie immer.
+Riech ich Dein Aroma, lieg ich gleich im Koma.
+Rosen sind rot. Dinosaurier sind tot. Das ist alles sehr schade. Darum bring mir Schokolade.
+Rosen sind rot. Veilchen sind blau. Du bist dumm und ich bin schlau.
+Scheisse auf dem Autoreifen gibt beim Bremsen braune Streifen.
+Scheiße in der Kuchenform ändert den Geschmack enorm.
+Scheiße in der Lampenschale gibt gedämpftes Licht im Saale.
+Schnell wie der Wind, ich sag, was ich find.
+Semmelbrösel in den Socken, hält den ärgsten Schweißfuß trocken.
+Siehst du jemand im Moore winken, wink zurück und lass ihn sinken.
+So nah am Bildschirm bekommst du schlechte Augen!
+Typisch, einfach typisch!
+Was du heute kannst besorgen, schaffst du sicherlich auch morgen.
+Was hast du dir dabei nur gedacht?
+Wenn die Kuh am Himmel schwirrt, hat sich die Natur geirrt.
+Wer braucht schon Ordnung im Leben?
+Wer hat die Fernbedienung gesehen?
+Wer mich neckt, den zwick ich keck.
+Wer nicht mehr weiter weiß, der bildet einen Arbeitskreis.
+Wer zuletzt lacht hat es nicht sofort verstanden.
+Will das Gras nicht mehr sprießen, sollte man vielleicht mal gießen.
+Willst du deinen Darm betonen, esse Sauerkraut und Bohnen.
+Willst Du Dir den Tag versaun, musst Du in den Spiegel schaun.
+Windows hat mir gerade dein Passwort verraten.
+Wird das Taschengeld angehoben, kauf ich wieder Drogen.

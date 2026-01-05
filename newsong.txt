@@ -1,0 +1,47 @@
+Ich liebe diesen Song!
+Endlich ein neuer Song.
+Den Song kenne ich noch nicht.
+Jetzt kommt ein Klassiker
+Das ist auch ein guter Song
+Achtung, Musikwechsel.
+Gefällt mir.<silence msec="1500"/>Oder auch nicht.
+Alter, jetzt geht's ab!
+Ich habe keine Ohren, aber das klingt gut.
+Dieser Song ist zu 87% gut.
+Neue Musik erkannt. Stimmung unbekannt.
+Und weiter im Programm.
+Frische Musik trifft ein.
+Was ist denn das für Musik?
+Hör mal!
+Tja, Zufallsmodus ist unberechenbar.
+Neue MP3 bereit
+Das ist keine Katzenmusik
+Ich mag diesen Song.<silence msec="1000"/>VIelleicht.
+Ich höre was Neues, du auch?
+<flap>Dazu kann ich tanzen.
+Bit und Byte, mach dich bereit.
+Neues Lied kommt rein - ich sag nein
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
